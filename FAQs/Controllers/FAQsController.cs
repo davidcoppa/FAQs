@@ -20,6 +20,8 @@ namespace FAQs.Controllers
             _context = context;
         }
 
+
+
         public async Task<IActionResult> ShowSearchForm()
         {
             return View();
